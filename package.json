@@ -1,0 +1,13 @@
+{
+  "name": "ephemeral-browser",
+  "version": "1.0.0",
+  "description": "Disposable Chrome sessions via Docker + noVNC",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "dockerode": "^3.3.0",
+    "express": "^4.18.2"
+  }
+}
